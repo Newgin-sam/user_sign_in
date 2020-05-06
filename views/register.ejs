@@ -1,0 +1,28 @@
+<%- include ('../partials/header') %>
+<style>
+    
+</style>
+    <body class="reg_body">
+    <div class="container  h-100 d-flex justify-content-center">
+        <div class="jumbotron my-auto text-center form_jumbo" > 
+            <div >
+                <h2>Register User</h2>
+            </div>
+            <hr>
+            <form action="/register" method="post">
+                <div class="container form_container" >
+                    <input type="text"  class="form-control mb-4" placeholder="enter your name" name="username" required>
+                    <input type="password" class="form-control mb-4" placeholder="password" name="password" required>
+                    <input type="email" class="form-control mb-4" placeholder="email" name="email" required>
+                    <input type="submit" class="btn btn-info my-4 btn-block" value="sign-up">
+                    <div> or </div>
+                    <div class="my-4">sign-up using</div>
+                    <a href="/auth/facebook" class="mx-1 btn btn-outline-primary" role="button"><i class="fa fa-facebook-f fa-lg ">acebook</i></a>
+                    <a href="/auth/google" class="mx-1 btn btn-outline-danger" role="button"><i  class="fa fa-google fa-lg g-icon">oogle</i></a>
+                </div>
+            </form>
+            
+        </div>
+    </div>    
+
+<%- include ('../partials/footer') %>

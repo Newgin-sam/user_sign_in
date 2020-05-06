@@ -1,0 +1,40 @@
+body.in_body{
+    background-image: url('http://4.bp.blogspot.com/-aMNvfdSVtl4/T5VepMWvnPI/AAAAAAAAAbU/CUYm88lK-K8/s1600/Free-Background-4.jpg');
+}
+.jumbotron.in_jumbo{
+    background-color: #a2b7ccc2;
+    color: aliceblue;
+    
+}
+.jumbotron.pro_jumbo{
+    padding-right:10%; 
+    padding-left: 10%; 
+    width:60%;
+    background-color: rgba(250, 250, 250, 0.8);
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body.reg_body{
+    background-image: url('https://www.therunningrams.org/images/welcome_background.jpg?crc=3942963768');
+}
+body.pro_body{
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/856108744057566344/02F192988D1D301C6A5864065DE593301C572337/');
+}
+.jumbotron.form_jumbo{
+    width: 60%; 
+    background-color: rgba(240, 248, 255, 0.616);
+}
+.g_icon{
+    color: rgb(226, 148, 148);
+}
+.log_body{
+    background-image: url('https://www.therunningrams.org/images/welcome_background.jpg?crc=3942963768');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form_container{
+    width: 50%;
+}
