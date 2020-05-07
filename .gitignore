@@ -1,5 +1,5 @@
 #containes google and facebook client_id and client_secret
-keys/
+keys
 
 #node_modules installed using npm
 node_modules
