@@ -9,6 +9,8 @@ const   dbconnection = require ("./config/mongo_connection"),
         User = require ("./model/user_model"),
         routes = require("./routes/app_routes");
 
+dbconnection();
+
 require("./config/passport_config");
 app.use(express.static(__dirname + "/public"));
 

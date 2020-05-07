@@ -4,7 +4,7 @@ const User = require ("../model/user_model");
 
 router.get('/auth/google',passport.authenticate('google', { scope: ['profile','email'] }));
 
-router.get('/auth/google/redirect',isloggedin, passport.authenticate('google', { failureRedirect: '/login' }),
+router.get('/auth/google/redirect', passport.authenticate('google', { failureRedirect: '/login' }),
   function(req, res) {
     // Successful authentication, redirect home.
     res.redirect("/logged");
@@ -14,7 +14,7 @@ router.get('/auth/google/redirect',isloggedin, passport.authenticate('google', {
 
 router.get('/auth/facebook',passport.authenticate('facebook',{scope : ['email']}));
 
-router.get('/auth/facebook/redirect',isloggedin, passport.authenticate('facebook', { failureRedirect: '/login' }),
+router.get('/auth/facebook/redirect', passport.authenticate('facebook', { failureRedirect: '/login' }),
   function(req, res) {
     // Successful authentication, redirect home.
     res.redirect('/logged');
